@@ -1,0 +1,4 @@
+MAILTO=network-admin@domain.com
+
+0 9 * * * rancid /usr/local/rancid/bin/rancid-run
+0 8 * * * rancid /usr/local/bin/RancidRouterDB.py -f /usr/local/rancid/var/netadmin/router.db
